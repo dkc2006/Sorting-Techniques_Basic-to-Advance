@@ -1,4 +1,4 @@
-package sorting;
+package sorting.heapSort;
 
-public class HeapSort {
+public class SimpleHeapSort {
 }
