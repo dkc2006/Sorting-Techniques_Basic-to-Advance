@@ -23,7 +23,6 @@ public class StudentBubbleSort {
     public String toString() {
         return "StudentBubbleSort{" + "rollNumber=" + rollNumber + ", name='" + name + '\'' + '}';
     }
-
 }
 
 class Sorter1 {
