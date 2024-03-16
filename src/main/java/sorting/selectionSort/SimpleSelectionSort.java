@@ -18,6 +18,7 @@ public class SimpleSelectionSort {
         }
     }
 
+
     public static void main(String[] args) {
         int [] numbers = new int[]{8,5,7,4,6,3,1,2};
         System.out.println("Given numbers are : " + Arrays.toString(numbers));
