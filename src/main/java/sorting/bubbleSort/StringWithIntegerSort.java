@@ -7,21 +7,18 @@ class MobilePhone {
     Double price;
 
 
-    public MobilePhone(String name,Double price) {
+    public MobilePhone(String name, Double price) {
         this.name = name;
         this.price = price;
     }
 
 
-
     @Override
     public String toString() {
-        return "MobilePhone{" +
-                ", name='" + name + '\'' +
-                ", price=" + price +
-                '}';
+        return "MobilePhone{" + ", name='" + name + '\'' + ", price=" + price + '}';
     }
 }
+
 class Sorter {
     public void sort(MobilePhone[] phones) {
         for (int counter = 0; counter < phones.length; counter++) {
@@ -36,13 +33,13 @@ class Sorter {
     }
 }
 
-    class Main {
-        public static void main(String[] args) {
-            MobilePhone[] phones = new MobilePhone[]{new MobilePhone("A", 10.0), new MobilePhone("B", 4.0)};
-            System.out.println(Arrays.toString(phones));
-            Sorter sorter = new Sorter();
-            sorter.sort(phones);
-            System.out.println(Arrays.toString(phones));
+class Main {
+    public static void main(String[] args) {
+        MobilePhone[] phones = new MobilePhone[]{new MobilePhone("A", 10.0), new MobilePhone("B", 4.0)};
+        System.out.println(Arrays.toString(phones));
+        Sorter sorter = new Sorter();
+        sorter.sort(phones);
+        System.out.println(Arrays.toString(phones));
 
-        }
     }
+}
