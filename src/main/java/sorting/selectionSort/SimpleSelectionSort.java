@@ -29,7 +29,7 @@ public class SimpleSelectionSort {
     }
 }
 
-//                      OR
+//                       OR
 
 //Selection sort
 //class Sorter{
