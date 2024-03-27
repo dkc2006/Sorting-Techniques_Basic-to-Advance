@@ -28,3 +28,24 @@ public class SimpleSelectionSort {
 
     }
 }
+
+//                      OR
+
+//Selection sort
+//class Sorter{
+//    void selectionSort(int[] numbers){
+//        for (int swapIndex =0 ;swapIndex< numbers.length-1;swapIndex++) {
+//            int minimumIndex = swapIndex;
+//            int swappedIndex = 0;
+//
+//            for (int index = swapIndex+1;index<numbers.length;index++) {
+//                if(numbers[0] < numbers[minimumIndex]){
+//                    minimumIndex = index;
+//                }
+//            }
+//            int temp = numbers[swapIndex];
+//            numbers[swapIndex] = numbers[minimumIndex];
+//            numbers[minimumIndex] = temp;
+//        }
+//    }
+//}
