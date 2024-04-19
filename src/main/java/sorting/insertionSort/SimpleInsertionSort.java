@@ -13,7 +13,7 @@ public class SimpleInsertionSort {
 
     void insertionSort(int[] numbers) {
         for (int index = 1; index < numbers.length; index++) {
-            int currentElement = numbers[index]; // corrected from numbers[1] to numbers[index]
+            int currentElement = numbers[index];
             int comparingIndex = index - 1;
             while (comparingIndex >= 0 && currentElement < numbers[comparingIndex]) {
                 numbers[comparingIndex + 1] = numbers[comparingIndex];
