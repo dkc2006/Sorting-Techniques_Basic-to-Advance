@@ -19,7 +19,7 @@ public class SimpleInsertionSort {
                 numbers[comparingIndex + 1] = numbers[comparingIndex];
                 comparingIndex--;
             }
-            numbers[comparingIndex + 1] = currentElement; // corrected from numbers[currentElement] to currentElement
+            numbers[comparingIndex + 1] = currentElement;
         }
     }
 }

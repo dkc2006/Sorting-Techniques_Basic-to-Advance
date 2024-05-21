@@ -21,7 +21,6 @@ public class StringsSelectionSort {
     public static void main(String[] args) {
         String[] names = new String[]{"Kanu", "Deepanshu", "Shyamji", "Bholenath", "Ramji"};
         System.out.println("Given names are : " + Arrays.toString(names));
-        StringsSelectionSort stringsSelectionSort = new StringsSelectionSort();
         selectionSort(names);
         System.out.println("Sorted names are : " + Arrays.toString(names));
     }

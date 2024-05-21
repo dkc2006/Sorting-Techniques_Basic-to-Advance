@@ -15,7 +15,6 @@ public class StudentSelectionSort {
     public String toString() {
         return "StudentSelectionSort{" + "rollNumber=" + rollNumber + ", name='" + name + '\'' + '}';
     }
-
 }
 
 class Sorter2 {
@@ -38,7 +37,6 @@ class Sorter2 {
 
         StudentSelectionSort[] numbers = new StudentSelectionSort[]{new StudentSelectionSort(18, "kanu"), new StudentSelectionSort(3, "Radha"), new StudentSelectionSort(25, "java"), new StudentSelectionSort(1, "Kanha")};
         System.out.println(Arrays.toString(numbers));
-        Sorter2 sorter2 = new Sorter2();
         selectionSort(numbers);
         System.out.println(Arrays.toString(numbers));
     }
